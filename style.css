@@ -32,7 +32,7 @@ html,body{
   color: black;
   float: right;
   font-family: 'Architects Daughter', normal;
-  font-size: 20px;
+  font-size: 21px;
   text-decoration: none;
   position: relative;
   bottom: 90px;
@@ -84,10 +84,10 @@ html,body{
   padding: 20px;  
   background-color:rgb(44, 62, 80 ,0.9);       
   position: relative;
-  color: white;
+  color: rgb(230, 223, 223);
   margin:100;
   font-size: 20px;
-  color:white;
+  color: rgb(230, 223, 223);
 }
 .goals{
     background-color: RGB(212, 172, 13,0.9);
