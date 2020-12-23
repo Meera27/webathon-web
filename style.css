@@ -3,11 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  min-width: 100%;
+  min-height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
 
 html,body{
     background-color: #FFFFFF;
     max-width: 100%;
-    overflow-x: inherit;
+    /* overflow-x: inherit; */
     scroll-behavior: smooth;
 }
 
@@ -22,6 +30,7 @@ html,body{
   font-family: 'Merienda One', cursive;
   font-size: 70px;
 }
+img { max-width: 100%; height: auto; }
 
 .main-container{
   padding: auto;
@@ -181,4 +190,16 @@ html,body{
 }
 .flexes{
    display: flex;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
 }
