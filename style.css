@@ -48,7 +48,12 @@ img { max-width: 100%; height: auto; }
   padding: 40px;
   left:300px;
   font-weight: 500;
-}
+  }
+  /* a:hover{
+    color: black;
+    background-color: blueviolet;
+  } */
+
 .container {
     position: relative;
     color: white;
